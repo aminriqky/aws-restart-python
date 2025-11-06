@@ -1,4 +1,4 @@
-bananas = 6
+bananas = int(input("Masukkan jumlah pisang: "))
 if bananas >= 5:
     print("I have a bunch of bananas.")
 elif bananas >= 1 and bananas <= 4:
