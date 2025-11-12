@@ -74,7 +74,7 @@ for i in range (5):
     print(i)
 print("============")
  
-nama = "Rinaldi"
+nama = "Amin"
 for huruf in nama:
     print(huruf)
 while digunakan ketika kita mau mengulang selama sebuah 
