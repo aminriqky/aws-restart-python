@@ -1,0 +1,43 @@
+-- Membuat tabel siswa
+
+CREATE TABLE siswa (
+
+  	id INTEGER PRIMARY KEy AUTOINCREMENT,
+
+    nama varchar(50),
+
+  	kelas varchar(10),
+
+  	umur INTEGER
+
+  )
+
+-- Menampilkan data di tabel
+
+SELECT * FROM Siswa
+ 
+-- Menampilkan hanya beberapa kolom 
+
+SELECT nama, kelas FROM Siswa
+ 
+-- Insert data ke tabel 
+
+INSERT INTO Siswa (nama, kelas, umur)
+
+VALUES ('Rinaldi', 7, 13);
+ 
+--Menambahkan 3 siswa 
+
+INSERT INTO siswa (nama, kelas, umur)
+
+VALUES
+
+('Budi', 8, 14),
+
+('Tukiyem', 9, 15),
+
+('Tono', 7, 14)
+ 
+-- Menampilkan semua data 
+
+SELECT * FROM siswa
